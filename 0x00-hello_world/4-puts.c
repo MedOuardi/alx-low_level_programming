@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
- *main script 
- *Description:
- * A C program that prints exactly \"Programming is like building a multilingual puzzle
- * Return 0
- */
-
+/**
+ * main - print the string in the put function
+ *
+ * Description: using the main function
+ * This program prints "Programming is like building a multilingual puzzle"
+ * Return: 0 (success)
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
