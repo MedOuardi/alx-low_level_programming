@@ -4,7 +4,7 @@
 /**
  * main : Entry point
  *
- * Description: positive or positive or zero
+ * Description: positive or negative or zero
  *
  * Return: (0)
  */
