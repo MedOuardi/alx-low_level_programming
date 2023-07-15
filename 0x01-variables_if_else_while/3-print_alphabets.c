@@ -21,7 +21,7 @@ int main(void)
 	}
 
 	/*Uppercase*/
-	while (ch <= 'z')
+	while (cha <= 'z')
 	{
 		putchar(cha);
 		cha++;
