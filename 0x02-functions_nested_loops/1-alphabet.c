@@ -9,7 +9,7 @@
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
@@ -19,6 +19,4 @@ int main(void)
 		_putchar(ch[i]);
 	}
 	_putchar('\n');
-
-	return (0);
 }
