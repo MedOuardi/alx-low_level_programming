@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * main- entry point
+ * print_alphabet- entry point
  *
- * Description:a function that prints the alphabet, in lowercase, followed by a new line.
+ * Description : a function that prints the alphabet,
+ * in lowercase, followed by a new line.
  *
  * Return: 0 always
  *
  */
 
+
 void print_alphabet(void)
 {
-	char ch[] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
+	int i;
 
-	for (i = 0; i <= 25; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(ch[i]);
+		_putchar(i);
 	}
 	_putchar('\n');
 }
