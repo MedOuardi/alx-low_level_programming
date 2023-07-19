@@ -21,6 +21,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 	}
-	printf("%lu\n", sum + fib2);
+	printf("%lu\n", fib1 + fib2);
 	return (0);
 }
