@@ -17,7 +17,7 @@ int main(void)
 	do {
 		sum = fib1 + fib2;
 		if (sum % 2 == 0)
-			total += sum
+			total += sum;
 		fib1 = fib2;
 		fib2 = sum;
 	} while (sum < 4000000);
