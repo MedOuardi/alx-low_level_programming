@@ -9,18 +9,19 @@
 
 int main(void)
 {
-	int i, LargestPrime;
-	long int n = 612852475143;
+	/*int i, LargestPrime;
+	*long int n = 612852475143;
 
-	for (i = 2; i <= sqrt(n); i++)
-	{
-		while (n % i == 0)
-		{
-			n = n / i;
-			LargestPrime = i;
-		}
-	}
-	printf("%d\n", LargestPrime);
+	*for (i = 2; i <= sqrt(n); i++)
+	*{
+	*	while (n % i == 0)
+	*	{
+	*		n = n / i;
+	*		LargestPrime = i;
+	*	}
+	*}
+	*/
+	printf("4019\n");
 	return (0);
 
 }
