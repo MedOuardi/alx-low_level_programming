@@ -20,7 +20,7 @@ int main(void)
 			LargestPrime = i;
 		}
 	}
-	printf("%d", LargestPrime);
+	printf("%d\n", LargestPrime);
 	return (0);
 
 }
