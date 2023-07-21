@@ -51,4 +51,5 @@ void print_number(int n)
 		_putchar('0' + n / power(10, i));
 		n = n % (power(10, i));
 	}
+	_putchar('\n');
 }
