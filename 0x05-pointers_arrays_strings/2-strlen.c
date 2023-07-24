@@ -5,7 +5,7 @@
  *
  * @s: check input
  *
- * return: the length of *c
+ * Return: the length of *c
  */
 
 int _strlen(char *s)
