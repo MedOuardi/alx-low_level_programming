@@ -31,5 +31,5 @@ void rev_string(char *s)
 	char temp = *s;
 
 	for (i = 0; i < _strlen(s); i++)
-		*(s + i) = *(temp + _strlen(temp) - i - 1);
+		*(s + i) = temp [_strlen(s) - i - 1];
 }
