@@ -28,7 +28,6 @@ int _strlen(char *s)
 void puts2(char *s)
 {
 	int i;
-	char temp;
 
 	for (i = 0; i < _strlen(s); i++)
 		if (i % 2 == 0)
