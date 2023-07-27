@@ -31,7 +31,7 @@ int _min(int a, int b, int c)
 {
 	int min = a;
 
-	if (b < min )
+	if (b < min)
 		min = b;
 	if (c < min)
 		min = c;
