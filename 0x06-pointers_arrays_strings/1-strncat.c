@@ -56,5 +56,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		*(dest + i + length_dest) = *(src + i);
 	}
+	*(dest + i + length_dest) = '\0';
 	return (dest);
 }
