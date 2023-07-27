@@ -52,7 +52,7 @@ char *_strncat(char *dest, char *src, int n)
 	length_dest = _strlen(dest);
 	length_src = _strlen(src);
 
-	for (i = 0; i <= _min(length_src, n); i++)
+	for (i = 0; i < _min(length_src, n); i++)
 	{
 		*(dest + i + length_dest) = *(src + i);
 	}
