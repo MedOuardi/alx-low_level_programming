@@ -22,20 +22,15 @@ int _strlen(char *s)
  *
  * @a: control input
  * @b: control input
- * @c: control input
  *
  * Return: minimum
  */
 
-int _min(int a, int b, int c)
+int _min(int a, int b)
 {
-	int min = a;
-
-	if (b < min)
-		min = b;
-	if (c < min)
-		min = c;
-	return (min);
+	if (a < b)
+		return (a);
+	return (b);
 }
 
 
@@ -52,15 +47,17 @@ int _min(int a, int b, int c)
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int length_dest, length_src, i;
+	int i;
 
-	length_dest = _strlen(dest);
-	length_src = _strlen(src);
 
-	for (i = 0; i < _min(length_src, n, length_dest); i++)
+	for (i = 0; i < n && *(src + i) != '\0'; i++)
 	{
 		*(dest + i) = *(src + i);
 	}
-	*(dest + length_dest) = '\0';
+	while (i < n)
+	{
+		*(dest + i) = '\0';
+		i++;
+	}
 	return (dest);
 }
