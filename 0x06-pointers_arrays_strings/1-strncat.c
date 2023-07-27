@@ -18,12 +18,12 @@ int _strlen(char *s)
 }
 
 /**
- * _min : fonction that return minimum of two numbers
+ * _min - fonction that return minimum of two numbers
  *
  * @a: control input
  * @b: control input
  *
- * Return: minimum 
+ * Return: minimum
  */
 
 int _min(int a, int b)
