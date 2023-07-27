@@ -33,11 +33,11 @@ char *_strcat(char *dest, char *src)
 	int length_dest, length_src, i;
 
 	length_dest = _strlen(dest);
-	lengtg_src = _strlen(src);
+	length_src = _strlen(src);
 
 	for (i = 0; i <= length_src; i++)
 	{
-		*(dest + i + length_dest) = *(src + i)
+		*(dest + i + length_dest) = *(src + i);
 	}
 	return (dest);
 }
