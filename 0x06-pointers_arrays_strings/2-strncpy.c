@@ -52,7 +52,7 @@ char *_strncpy(char *dest, char *src, int n)
 	length_dest = _strlen(dest);
 	length_src = _strlen(src);
 
-	for (i = 0; i < _min(_min(length_src, n), length_src); i++)
+	for (i = 0; i < _min(_min(length_src, n), length_dest); i++)
 	{
 		*(dest + i) = *(src + i);
 	}
