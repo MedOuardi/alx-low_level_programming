@@ -10,7 +10,7 @@
 
 int is_separator(char c)
 {
-	char separators[] = " \t\n,;.!?\"(){}\0";
+	char separators[] = " \t\n,;.!?\"(){}";
 	int i = 0;
 
 	while (i <= 12)
