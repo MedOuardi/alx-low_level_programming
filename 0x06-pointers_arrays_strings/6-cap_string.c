@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * is_separator - verify if char is seperator
@@ -15,11 +16,11 @@ int is_separator(char c)
 
 	while (i <= 12)
 	{
-		if c == separators[i]
-			return (0);
+		if (c == separators[i])
+			return (1);
 		i++;
 	}
-	return (1);
+	return (0);
 }
 /**
  * is_lower - functio that verify is char in lowercase
@@ -48,7 +49,7 @@ char *cap_string(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (is_seperator(str[i]))
+		if (is_separator(str[i]))
 		{
 			if (is_lower(str[i + 1]))
 			{
