@@ -13,7 +13,7 @@ char *leet(char *c)
 {
 	char *cpy = c;
 	char Letters[] = "AEOTL";
-	char codes[] = "43071";
+	int codes[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
 	while (*c)
