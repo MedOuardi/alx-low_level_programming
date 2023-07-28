@@ -62,6 +62,6 @@ char *cap_string(char *str)
 			separator_found = 0;
 		str++;
 	}
-	return (str);
+	return (cpy);
 
 }
