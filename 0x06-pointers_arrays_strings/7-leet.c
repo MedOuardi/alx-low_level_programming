@@ -14,7 +14,7 @@ char *leet(char *c)
 	char *cpy = c;
 	char Letters[] = "AEOTL";
 	char codes[] = "43071";
-	int i;
+	unsigned int i;
 
 	while (*c)
 	{
