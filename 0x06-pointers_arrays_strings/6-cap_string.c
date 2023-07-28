@@ -44,18 +44,23 @@ int is_lower(char c)
 
 char *cap_string(char *str)
 {
-	int i;
+	int separator_found = 1;
+	char *cpy = str;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (*str)
 	{
-		if (is_separator(str[i]))
+		if (is_separator(*str))
 		{
-			if (is_lower(str[i + 1]))
-			{
-				i++;
-				str[i] -= 32;
-			}
+			separator_found = 1;
 		}
+		else if (is_lower(*str) && separator_found)
+		{
+			*str -= 32;
+			separator_found = 0;
+		}
+		else
+			separator_found = 0;
+		str++;
 	}
 	return (str);
 
