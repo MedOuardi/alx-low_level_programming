@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * 
  * _memcpy - unction that fills memory with a constant byte.
  *
  * @dest: pointer to the memory area
