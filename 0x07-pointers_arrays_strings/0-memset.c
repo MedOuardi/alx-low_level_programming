@@ -3,7 +3,7 @@
 /**
  * _memset - unction that fills memory with a constant byte.
  *
- * @s: pointer to the memory area 
+ * @s: pointer to the memory area
  * @b: the constant byte
  * @n: int
  *
