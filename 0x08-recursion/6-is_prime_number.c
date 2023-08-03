@@ -30,5 +30,5 @@ int is_prime(int n, int m)
 
 int is_prime_number(int n)
 {
-	return (is_prime_recursive(n, 2));
+	return (is_prime(n, 2));
 }
